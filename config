@@ -1,6 +1,0 @@
-[/]
-tools.staticdir.root = "./static"
-
-[/layout.css]
-tools.staticfile.on = True
-tools.staticfile.filename = "./static/layout.css"
