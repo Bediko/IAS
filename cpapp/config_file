@@ -1,0 +1,12 @@
+[global]
+
+tree.cpapp: cherrypy.Application(cpapp.Root())
+
+[/layout.css]
+tools.staticfile.on = True
+tools.staticfile.filename = cpapp.current_dir + '/static/layout.css'
+
+[/avatar.jpg]
+tools.staticfile.on = True
+tools.staticfile.filename = cpapp.current_dir + '/static/avatar.jpg'
+
