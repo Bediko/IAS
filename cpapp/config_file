@@ -10,3 +10,10 @@ tools.staticfile.filename = cpapp.current_dir + '/static/layout.css'
 tools.staticfile.on = True
 tools.staticfile.filename = cpapp.current_dir + '/static/avatar.jpg'
 
+[/prototype.js]
+tools.staticfile.on = True
+tools.staticfile.filename = cpapp.current_dir + '/static/prototype.js'
+
+[/control.js]
+tools.staticfile.on = True
+tools.staticfile.filename = cpapp.current_dir + '/static/control.js'

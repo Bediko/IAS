@@ -4,13 +4,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 
-		<title>Terminverwaltung - Termin&uuml;bersicht</title>
+		<title>Raumsuche</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta http-equiv="imagetoolbar" content="no" />
 		<link rel="stylesheet" type="text/css" href="layout.css" />
+    <script type="text/javascript" src="prototype.js"></script>
+    <script type="text/javascript" src="control.js"></script>
 	</head>
-  <body>
-    <p> hello world </p>
-    <img src="avatar.jpg"/>
+  <body onLoad="initialize();">
+    <h1>Raumsuche FH-Niederrhein Campus Sued</h1>
+    <form id="form1" action="" method="post">
+      <input type="Button" id="dir" name="dir" label="Raum per Raumnummer suchen" value="Raum per Raumnummer suchen" onClick="direkt();"/>
+      <input type="Button" id="indir" name="indir" label="Raum per Raumeigenschaften suchen" value="Raum per Raumeigenschaften suchen" onClick="indirekt();"/>
+    </form>
   </body>
 </html>
